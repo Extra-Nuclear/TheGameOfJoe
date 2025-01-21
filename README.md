@@ -6,7 +6,7 @@ Well... TheGameOfJoe is only the best game of all time
 
 ### Why Is This?
 
-Crazy enough, the guy from JoeClicker is in its
+Crazy enough, the guy from JoeClicker is in it
 
 ### How Can I Download This WONDERFULL Game?
 
