@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <title>The Game of Joe</title>
+    <title>Downloads - The Game of Joe</title>
     <style>
     body {
       text-align: center;
@@ -15,9 +15,7 @@
     }
 
     h1 {
-      color: #fff;
       font-size: 55px;
-      margin: auto;
     }
 
     nav {
@@ -35,11 +33,18 @@
       color: #fff;
     }
 
-    h2, h3, p {
-      color: #fff;
+    p {
+      font-size: 20px;
     }
 
-    .nuh {
+    .download-item {
+      margin: 20px 0;
+      padding: 10px;
+      background-color: #444;
+      border-radius: 5px;
+    }
+
+    a.download-link {
       display: inline-block;
       padding: 10px 20px;
       background-color: #3c434b;
@@ -49,25 +54,34 @@
       font-weight: bold;
     }
 
-    .nuh:hover {
+    a.download-link:hover {
       background-color: #415163;
+    }
+
+    .italic {
+      color: #b8b8b8;
+      font-size: 15px;
+      font-style: italic;
+      background-color: rgba(0, 0, 0, 0.0);
     }
   </style>
 </head>
 <body>
-  <h1>The Game of Joe</h1>
+  <h1>Downloads</h1>
   <nav>
     <a href="index.html" class="other-versions">Home</a>
     <a href="updates.html" class="other-versions">Updates</a>
     <a href="downloads.html" class="other-versions">Downloads</a>
   </nav>
-
-  <br><br>
-
-  <h2>Welcome to the exciting Game Of Joe!</h2>
-  <p>An exciting game, like no other.</p>
-  <p>Featuring Joe!</p>
   <br>
-  <a href="downloads.html" class="nuh">Downloads</a>
+  <p class="italic">Only The Latest Version Will Be Avaliable</p>
+  <br>
+  <div class="download-item">
+    <h2>Version 2.1</h2>
+    <!--<p class="italic">Only for Windows ( For Now )</p>-->
+    <a href="https://drive.google.com/uc?export=download&id=1tuXvZS3e259_XGAOziTC0WFubWK7n5Sm" class="download-link">2.1 Windows</a>
+    <a href="https://drive.google.com/uc?export=download&id=1ckL2MfENSYQNlCPF7E5gV6G2zp6PfpEs" class="download-link">2.1 Mac</a>
+    <br>
+  </div>
 </body>
 </html>
