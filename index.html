@@ -15,31 +15,25 @@
     }
 
     h1 {
-      color: #fff;
       font-size: 55px;
       margin: auto;
     }
 
     nav {
-      margin: 20px 0;
+      margin: 20px;
     }
 
-    a.other-versions {
-      margin: 0 10px;
+    nav * {
+      margin: 10px;
       color: #b8b8b8;
-      font-size: 20px;
       text-decoration: none;
     }
 
-    a.other-versions:hover {
+    nav * {
       color: #fff;
     }
 
-    h2, h3, p {
-      color: #fff;
-    }
-
-    .nuh {
+    .button {
       display: inline-block;
       padding: 10px 20px;
       background-color: #3c434b;
@@ -47,9 +41,11 @@
       text-decoration: none;
       border-radius: 5px;
       font-weight: bold;
+      border: 0;
+      font-family: 'Space Mono', monospace;
     }
 
-    .nuh:hover {
+    .button:hover {
       background-color: #415163;
     }
   </style>
@@ -57,17 +53,15 @@
 <body>
   <h1>The Game of Joe</h1>
   <nav>
-    <a href="index.html" class="other-versions">Home</a>
-    <a href="updates.html" class="other-versions">Updates</a>
-    <a href="downloads.html" class="other-versions">Downloads</a>
+    <a href="index.html">Home</a>
+    <a href="updates.html">Updates</a>
+    <a href="downloads.html">Downloads</a>
   </nav>
-
   <br><br>
-
   <h2>Welcome to the exciting Game Of Joe!</h2>
   <p>An exciting game, like no other.</p>
   <p>Featuring Joe!</p>
   <br>
-  <a href="downloads.html" class="nuh">Downloads</a>
+  <a href="downloads.html" class="button">Downloads</a>
 </body>
 </html>
