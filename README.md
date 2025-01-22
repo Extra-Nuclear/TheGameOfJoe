@@ -10,4 +10,4 @@ Crazy enough, the guy from JoeClicker is in it
 
 ### How Can I Download This WONDERFULL Game?
 
-Lucky for you, `Version 2.1` has been released [here](https://github.com/Extra-Nuclear/TheGameOfJoe)
+Lucky for you, `Version 2.2` has been released [here](https://github.com/Extra-Nuclear/TheGameOfJoe)
